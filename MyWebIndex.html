@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Navin Ganges Inc. &copy; 2016</title>
+<style type="text/css">
+body{ background: rgb(0,100,200);}
+.login{ margin-top: 50px; margin-left:35%; border: 2px solid black; width: 300px; height: 300px;
+		padding: 5px; background-color: #F5F5F5;}
+h3{ background-color: orange; color: blue; padding: 5px; text-align: center;}
+
+.submit{ background-color: orange; padding: 7px 40px 7px 40px; color: blue; font-weight: bold; margin-left: 80px;}
+.submit1{ background-color: yellow; padding: 7px 40px 7px 40px; color: blue; font-weight: bold; margin-left: 80px;}
+</style>
+</head>
+<body>
+<div class="login">
+<h3>Navin Ganges Inc.</h3><br>
+<p style="text-align: center; background-color: yellow;" id="p1"> Please Enter your login Details</p>
+<form action="LoginServlet" method="get">
+<table>
+<tr><td>Username :</td><td><input type="text" name="username" placeholder="Enter username or ID"></td></tr>
+<tr><td>Password :</td><td><input type="password" name="password" placeholder="Enter your password"></td></tr>
+<tr><td colspan="2" align="center"><input class="submit" type="submit" name="submit" value="Login">
+<a class="submit1" href="Signup.html">Signup</a> </td>
+</table>
+</form>
+<p>Sigup if not Registered??</p>
+</div>
+</body>
+</html>
